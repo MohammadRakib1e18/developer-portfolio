@@ -1,13 +1,50 @@
 body{
     margin:0px;
     font-family: 'Poppins', sans-serif;
+    background-color:rgb(61, 111, 175);
+}
 
+
+.top-navbar{
+    margin-top:2px;
+    overflow:hidden;
+    background-color: rgb(70, 69, 69);
+}
+
+.top-navbar a{
+    color:#f8fafc;
+    text-align:center;
+    padding: 14px 35px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.left-navbar-item{
+    float: left;
+}
+
+#right-navbar-item{
+    float: right;
+}
+
+.top-navbar a:hover{
+    background-color:powderblue;
+    color:black;
+}
+.top-navbar a:active{
+    background-color: rgb(255, 115, 0);
+    color:white;
+}
+.stylish-font{
+    font-family: Playfair Display;
 }
 
 section{
     height: 500px;
     padding-bottom: 150px;
 }
+
 .half-width{
     width:40%;
     float:left;
@@ -25,8 +62,16 @@ section{
 .orange-color{
     color:orange;
 }
+
+.gray-color{
+    color:rgb(94, 48, 48);
+}
+
 h1{
     font-size:50px;
+}
+p{
+    color:cyan;
 }
 
 .get-top-space{
@@ -55,13 +100,8 @@ h1{
     color:white;
     margin:0px;
 }
-.gray-color{
-    color:gray;
-}
-.my-recipies h1{
-    text-align:center;
-}
-.my-recipies p{
+
+.my-recipies h1,p{
     text-align: center;
 }
 
@@ -71,15 +111,16 @@ h1{
     height: 80%;
 }
 
-#recipes{
+.recipes-description{
     float:left;
     width:30%;
     margin:5px;
+    padding:15px;
 }
-#recipes img{
+
+.recipes-description img{
     height:60%;
     width:90%;
-    margin:20px;
     border-radius:20px;
     object-fit: cover;
 }
