@@ -46,3 +46,15 @@ h1{
     height:640px;
     object-fit: cover;
 }
+
+.footer{
+    text-align: center;
+    background-color:black;
+}
+.footer p{
+    color:white;
+    margin:0px;
+}
+.gray-color{
+    color:gray;
+}
