@@ -1,3 +1,43 @@
-P{
+body{
+    margin:0px;
     font-family: 'Poppins', sans-serif;
+
+}
+
+.section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left:2%;
+    padding-left:2%;
+}
+
+.half-width img{
+    width:100%;
+}
+.order-healthy-food h1{
+    margin:0px;
+}
+
+.orange-color{
+    color:orange;
+}
+h1{
+    font-size:50px;
+}
+
+.get-top-space{
+    margin-top:150px;
+}
+.order-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato );
+    padding: 10px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    color:white;
+    box-shadow: 3px 3px 15px rgb(255, 115, 0);
 }
